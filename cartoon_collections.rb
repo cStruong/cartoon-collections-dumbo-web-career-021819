@@ -22,10 +22,11 @@ def find_the_cheese(foodArr)
   i = 0
   while i < cheese_types.length
     cheese = cheese[i]
-  if foodArr.include? (cheese)
-    return cheese
-  else
-    return nil
+    
+    if foodArr.include? (cheese)
+     return cheese
+    else
+     return nil
+    end
   end
-  
 end
