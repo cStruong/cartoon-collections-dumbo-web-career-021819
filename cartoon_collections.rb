@@ -22,7 +22,7 @@ def find_the_cheese(foodArr)
   i = 0
   while i < cheese_types.length
     foodArr.find do |food|
-      food = cheese_types[i]
+      food == cheese_types[i]
     end
     
     i += 1
