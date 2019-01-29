@@ -25,9 +25,10 @@ def find_the_cheese(foodArr)
     
     if foodArr.find do |food|
       food == cheese
-    else
-     return nil
     end
- 
+    
+    i += 1
   end
+  
+  return nil
 end
