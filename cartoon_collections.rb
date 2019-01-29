@@ -23,7 +23,7 @@ def find_the_cheese(foodArr)
   while i < cheese_types.length
     cheese = cheese[i]
     
-    if foodArr.include? (cheese)
+    if foodArr.include? (cheese) == true
      return cheese
     else
      return nil
