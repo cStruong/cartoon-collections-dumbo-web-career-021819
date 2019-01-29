@@ -30,4 +30,3 @@ def find_the_cheese(foodArr)
   end
   
   return nil
-end
