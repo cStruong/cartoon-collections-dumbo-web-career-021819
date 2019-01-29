@@ -25,5 +25,8 @@ def find_the_cheese(foodArr)
       food = cheese[i]
     end
     
+    i += 1
+  end
+    
   return nil
 end
