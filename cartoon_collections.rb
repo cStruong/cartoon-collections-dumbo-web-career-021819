@@ -19,7 +19,7 @@ end
 def find_the_cheese(foodArr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  if foodArr.includes? (cheese_types)
+  if foodArr.include? (cheese_types)
   else
     return "nil"
   end
