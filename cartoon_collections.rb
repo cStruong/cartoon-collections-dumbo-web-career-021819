@@ -19,6 +19,5 @@ end
 def find_the_cheese(foodArr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  if foodArr.includes |food|
-    
+  foodArr.includes? (cheese_types)
 end
