@@ -21,13 +21,9 @@ def find_the_cheese(foodArr)
   
   i = 0
   while i < cheese_types.length
-    cheese = cheese[i]
-    
     foodArr.find do |food|
-      food == cheese
+      food = cheese[i]
+    end
     
-    i += 1
-  end
-  
   return nil
 end
