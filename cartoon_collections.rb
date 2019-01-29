@@ -22,5 +22,5 @@ def find_the_cheese(foodArr)
   if foodArr.includes? (cheese_types)
   else
     return "nil"
-end
+  end
 end
